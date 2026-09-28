@@ -1,0 +1,120 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+
+    // =========================
+    // AJAX SEARCH
+    // =========================
+
+    $("#btnSearch").click(function () {
+
+        var name = $("#searchName").val();
+
+        $.ajax({
+            url: "/Employee/Search",
+            type: "GET",
+            data: {
+                name: name
+            },
+
+            success: function (data) {
+
+                $("#employeeBody").empty();
+
+                $.each(data, function (index, employee) {
+
+                    $("#employeeBody").append(`
+                        <tr>
+                            <td>${employee.id}</td>
+                            <td>${employee.name}</td>
+                            <td>${employee.email}</td>
+                            <td>${employee.department}</td>
+                            <td>${employee.salary}</td>
+                        </tr>
+                    `);
+
+                });
+            },
+
+            error: function () {
+                alert("Something went wrong.");
+            }
+        });
+    });
+
+
+    // =========================
+    // AJAX CREATE EMPLOYEE
+    // =========================
+
+    $("#btnAdd").click(function () {
+
+        var employee = {
+            name: $("#name").val(),
+            email: $("#email").val(),
+            department: $("#department").val(),
+            salary: $("#salary").val()
+        };
+
+        $.ajax({
+            url: "/Employee/Create",
+            type: "POST",
+            data: employee,
+
+            success: function (response) {
+
+                if (response.success) {
+
+                    $("#message").text(response.message);
+
+                    // Clear form
+                    $("#name").val("");
+                    $("#email").val("");
+                    $("#department").val("");
+                    $("#salary").val("");
+                }
+            },
+
+            error: function () {
+                $("#message").text(
+                    "Error while adding employee."
+                );
+            }
+        });
+    });
+
+
+    // =========================
+    // ADD DYNAMIC SKILL
+    // =========================
+
+    $("#btnAddSkill").click(function () {
+
+        var skillHtml = `
+            <div class="skill-row">
+                <input type="text"
+                       class="skill-input"
+                       placeholder="Enter skill" />
+
+                <button type="button"
+                        class="btnRemoveSkill">
+                    Remove
+                </button>
+            </div>
+        `;
+
+        $("#skillsContainer").append(skillHtml);
+    });
+
+
+    // =========================
+    // REMOVE DYNAMIC SKILL
+    // =========================
+
+    $(document).on("click", ".btnRemoveSkill", function () {
+
+        $(this).closest(".skill-row").remove();
+
+    });
+
+</script>

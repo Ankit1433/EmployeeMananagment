@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ankit.Prajapati\\Source\\Repos\\PreAssignment\\EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4A7613-8A4D-F042-9BD4-10EDA390178B}|EmployeeManagement.Desktop\\EmployeeManagement.Desktop.csproj|c:\\users\\ankit.prajapati\\source\\repos\\preassignment\\employeemanagement\\employeemanagement.desktop\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4A7613-8A4D-F042-9BD4-10EDA390178B}|EmployeeManagement.Desktop\\EmployeeManagement.Desktop.csproj|solutionrelative:employeemanagement.desktop\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit.Prajapati\\Source\\Repos\\PreAssignment\\EmployeeManagement\\EmployeeManagement.Desktop\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Desktop\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\Ankit.Prajapati\\Source\\Repos\\PreAssignment\\EmployeeManagement\\EmployeeManagement.Desktop\\EmployeeForm.cs",
+              "RelativeToolTip": "EmployeeManagement.Desktop\\EmployeeForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T11:13:16.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

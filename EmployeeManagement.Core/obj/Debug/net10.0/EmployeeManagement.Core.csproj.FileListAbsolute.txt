@@ -1,0 +1,11 @@
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\bin\Debug\net10.0\EmployeeManagement.Core.deps.json
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\bin\Debug\net10.0\EmployeeManagement.Core.dll
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\bin\Debug\net10.0\EmployeeManagement.Core.pdb
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.AssemblyInfoInputs.cache
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.AssemblyInfo.cs
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.dll
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\refint\EmployeeManagement.Core.dll
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\EmployeeManagement.Core.pdb
+C:\Users\Ankit.Prajapati\Source\Repos\PreAssignment\EmployeeManagement\EmployeeManagement.Core\obj\Debug\net10.0\ref\EmployeeManagement.Core.dll

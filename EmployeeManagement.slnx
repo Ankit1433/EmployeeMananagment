@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="EmployeeManagement.Console/EmployeeManagement.Console.csproj" />
+  <Project Path="EmployeeManagement.Controls/EmployeeManagement.Controls.csproj" />
+  <Project Path="EmployeeManagement.Core/EmployeeManagement.Core.csproj" />
+  <Project Path="EmployeeManagement.Data/EmployeeManagement.Data.csproj" />
+  <Project Path="EmployeeManagement.Desktop/EmployeeManagement.Desktop.csproj" />
+  <Project Path="EmployeeManagement.Service/EmployeeManagement.Service.csproj" />
+  <Project Path="EmployeeManagement.Web/EmployeeManagement.Web.csproj" />
+</Solution>
